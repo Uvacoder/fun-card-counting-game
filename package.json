@@ -1,7 +1,7 @@
 {
   "name": "card-counting-game",
   "version": "0.1.0",
-  "homepage": "https://brendansudol.github.io/card-counting-game",
+  "homepage": "https://test-card-counting-game.vercel.app",
   "private": true,
   "devDependencies": {
     "gh-pages": "^0.12.0",
@@ -20,7 +20,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   }
 }
